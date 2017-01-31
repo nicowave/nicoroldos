@@ -1,0 +1,83 @@
+/*/*	responsive.css
+			nicolas roldos
+			8.25.2015
+/* 		responsive layout: css rules  */
+
+/*	both conditions need to be true if using the 'and' (&&) operator 	*/
+/*	responsive web design: realtive units vs. fixed units*/
+/*	responsive web design: using 'media queries'	*/
+/*	media queries: allow page elements to be adjusted based on the width of the page 	*/
+
+/*/*	 '3' important concepts in responsive web design:
+    	fluid images
+    	fluid grids
+    	media queries
+		   If the 'detected' screen-size (width)
+			is larger-than (>) 480 pixels,
+			changes the following changes
+			will be applied to the styling of the site */
+
+@media screen and (min-width: 480px) {
+	/* columns */
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+	/*	setting the width of columns for page
+			calculating the columns:
+			3 * 5 = 15% margins; 100% - 15% = 85% non-margins
+			85% / 3 columns = 28.333333333% 	*/	
+
+	#gallery  li {
+		width: 28.333333333%;
+		/* 	select every 4th item and 'clear' them 	*/
+	}
+
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	.profile-logo {
+		float: left;
+		margin: 0 16% 80px 16%;
+		/*top right bottom left*/
+	}
+}
+
+@media screen and (min-width: 660px) {
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 88%;
+	}
+
+	#logo {
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 88%
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 0.825em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #1C1C41;
+		margin-bottom: 60px;
+	}
+}
