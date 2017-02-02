@@ -221,7 +221,7 @@ section {
 }
 
 .hello img.center {
-	border-radius: 300px;
+	border-radius: 150px;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -274,8 +274,9 @@ section {
 }
 
 .about img {
-	border-radius: 250px;
-	padding-bottom: 24px;
+	border-radius: 150px;
+	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .about img.center {
@@ -291,6 +292,21 @@ section {
 	margin-left: 16px;
 	margin-top: 8px;
 	margin-bottom: 8px;
+}
+
+/* contact classes */
+
+
+.contact a {
+  font-size: 1.2em;
+	font-weight: normal;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.contact_img {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 
