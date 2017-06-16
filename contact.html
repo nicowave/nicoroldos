@@ -1,94 +1,152 @@
 <!--contact.html-->
 <!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="utf-8">
-			<title>Nicolas Roldos</title>
-			<link rel="stylesheet" href="css/normalize.css">
-			<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css'>
-			<link rel="stylesheet" href="css/main.css">
-			<link rel="stylesheet" href="css/responsive.css">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		</head>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nicolas Roldos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section class="hero is-primary is-small">
+        <div class="hero-body">
+            <div class="container">
+                <header>
+                    <a href="index.html">
+                        <h1 class="name-space title">Nicolas Roldos</h1>
+                    </a>
+                </header>
+            </div>
+        </div>
+    </section>
+    <nav class="nav nav-style">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item is-tab nav-text" href="about_me.html">
+                About
+            </a>
+                <a class="nav-item is-tab nav-text" href="resume.html">
+                Resume
+            </a>
+                <a class="nav-item is-tab nav-text" href="contact.html">
+                Contact
+            </a>
+            </div>
+
+            <div class="nav-right nav-menu">
+
+                <a class="nav-item" href="mailto:nico.roldos@me.com">
+                    <span class="icon">
+                <i class="fa fa-envelope" aria-hidden="false"></i>
+              </span>
+                </a>
+                <a class="nav-item" href="https://github.com/nicowave">
+                    <span class="icon">
+                <i class="fa fa-github" aria-hidden="false"></i>
+              </span>
+                </a>
+                <a class="nav-item" href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
+                    <span class="icon">
+                <i class="fa fa-linkedin-square" aria-hidden="false"></i>
+              </span>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <section class="hero-content">
+
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is 1">Please feel free to contact me:</h1>
+                <br>
+                <li class="list-style">
+                  <i class="fa fa-phone"></i>
+                  <p>+1 240 338 4335</p>
+                </li>
+                <br>
+                <br>
+                <li class="list-style">Or send me a message here:</li>
+                <br>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <p class="control">
+                        <input class="input" type="text" placeholder="Text input">
+                    </p>
+                </div>
 
 
-		<body>
-			<header>
-				<a href="index.html" id="logo">
-					<h1>
-						Nicolas Roldos
-					</a></h1>
-					<nav class="navigation">
-						<tr>
-							<a href="about_me.html">
-								<td>
-									About
-								</td></a>
-							<a href="resume.html">
-								<td>
-									Resume
-							</a></td>
-							<a href="contact.html">
-								<td>
-									Contact
-							</td></a>
-						</tr>
-					</nav>
-			</header>
+            <form class="contact-me" method="post" action="mailto:nico.roldos@me.com">
+                <div class="field">
+                    <label class="label">Email</label>
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input is-danger" placeholder="Email input" value="hello@">
+                        <span class="icon is-small is-left">
+                          <i class="fa fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                          <i class="fa fa-warning"></i>
+                        </span>
+                    </p>
+                    <p class="help is-danger">This email is invalid</p>
+                </div>
 
-			<div id="wrapper">
+                <div class="field">
+                    <label class="label">Subject</label>
+                    <p class="control">
+                        <input class="input" type="text" placeholder="Text input">
+                    </p>
+                </div>
 
-			<div id="social">
-				<table style="width: 100%">
-					<tr id="contact">
-					    <td>
-							<a href="mailto:nico.roldos@me.com">
-							<img src="img/email_black_circle.png" width="40" height="40"></a>
-						</td>
-					    <td>
-							<a href="tel:240-338-4335">
-							<img src="img/phone_circle_black.png" width="40" height="40"></a>
-						</td>
-						<td>
-							<a href="https://github.com/nicowave">
-							<img src="img/github_black_circle.png" width="40" height="40"></a>
-						</td>
-						<td>
-							<a href="http://geoidlife.com">
-							<img src="img/website_black.png" width="40" height="40"></a>
-						</td>
-						<td>
-							<a href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
-							<img src="img/linkedin_black_circle.png" width="40" height="40"></a>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-    <div id="wrapper">
-      <div id="contact">
-      <h3>Please feel free to contact me:</h3>
-        <ul>
-          <li class="contact"><a href="mailto:nico.roldos@me.com">nico.roldos@me.com</a></li>
-          <li class="contact_img"><a href="mailto:nico.roldos@me.com"><img src="img/email_black_circle.png" width="80" height="80"></a></li>
-          <li class="contact"><a href="tel:240-338-4335">+1 (240) 338-4335</a></li>
-          <li class="contact_img"><a href="tel:240-338-4335"><img src="img/phone_circle_black.png" width="80" height="80"></a></li>
-          <li class="contact"><a href="https://github.com/nicowave">check out my Github account at: github.com/nicowave</a></li>
-          <li class="contact_img"><a href="https://github.com/nicowave"><img src="img/github_black_circle.png" width="80" height="80"></a></li>
-          <li class="contact"><a href="http://geoidlife.com">Visit my blog at geoidlife.com</a></li>
-          <li class="contact_img"><a href="http://geoidlife.com"><img src="img/website_black.png" width="80" height="80"></a></li>
-        </ul>
-    </div>
-  </div>
+                <div class="field">
+                    <label class="label">Message</label>
+                    <p class="control">
+                        <textarea class="textarea" placeholder="Textarea"></textarea>
+                    </p>
+                </div>
+                <br>
+                <div class="field is-grouped">
+                    <p class="control">
+                        <button class="button is-primary" method="post" value="Send Email">Submit</button>
+                    </p>
+                </div>
+                <br>
+            </div>
+          </form>
+    </section>
 
-    <div id="wrapper">
-    <footer>
-      <a href="https://twitter.com/geoidlife">
-        <img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/geoidlife">
-        <img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-      <p>&copy; 2017	Nicolas Roldos.</p>
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <a class="icon" href="https://www.facebook.com/nico.roldos">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="icon" href="https://twitter.com/geoidlife">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="icon" href="mailto:nico.roldos@me.com">
+                <span class="icon">
+          <i class="fa fa-envelope"></i>
+        </span>
+            </a>
+        </div>
+        <div class="content has-text-centered">
+            <p>
+                <strong>
+          &copy; 2017 Nicolas Roldos
+        </strong>
+            </p>
+
+        </div>
     </footer>
-  </div>
+
 </body>
+
 </html>

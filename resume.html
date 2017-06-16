@@ -1,264 +1,505 @@
 <!--resume.html-->
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Nicolas Roldos</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+<head>
+    <meta charset="utf-8">
+    <title>Nicolas Roldos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-  <body>
-      <header>
-        <a href="index.html" id="logo">
-          <h1>Nicolas Roldos</a></h1>
-					<nav class="navigation">
-						<tr>
-							<a href="about_me.html">
-								<td>About</td></a>
-							<a href="resume.html">
-								<td>Resume</td></a>
-							<a href="contact.html">
-								<td>Contact</td></a>
-						</tr>
-					</nav>
-      </header>
+<body>
 
-      <div id="wrapper">
-  			<div id="social">
-  				<table style="width: 100%">
-  					<tr id="contact">
-							<a href="mailto:nico.roldos@me.com">
-							<td><img src="img/email_black_circle.png" width="40" height="40"></td></a>
-							<a href="tel:240-338-4335">
-							<td><img src="img/phone_circle_black.png" width="40" height="40"></td></a>
-							<a href="https://github.com/nicowave">
-							<td><img src="img/github_black_circle.png" width="40" height="40"></td></a>
-							<a href="http://geoidlife.com">
-							<td><img src="img/website_black.png" width="40" height="40"></td></a>
-							<a href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
-							<td><img src="img/linkedin_black_circle.png" width="40" height="40"></td></a>
-  					</tr>
-  				</table>
-  			</div>
-			</div>
-			<!--RESUME-->
-			<!--table of contents-->
-			<div class="top" id="top">
-				<h3>Resume</h3>
-				<h4>Contents</h4>
-					<ul id="toc" class="toc">
-						<a href="#education"><li>Education</li></a>
-						<a href="#languages"><li>Languages</li></a>
-						<a href="#work_experience"><li>Work Experience</li></a>
-						<a href="#computer_skills"><li>Computer Skills</li></a>
-						<a href="#volunteer_experience"><li>Volunteer Experience</li></a>
-					</ul>
-			</div>
+    <section class="hero is-small is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <header>
+                    <a href="index.html">
+                        <h1 class="name-space title">Nicolas Roldos</h1>
+                    </a>
+                </header>
+            </div>
+        </div>
+    </section>
 
-			<!--RESUME-->
-			<!--education-->
-			<div id="wrapper">
-				<div class="education" id="education">
-				<h3>University Education:</h3>
-				<h4>University of Redlands</h4>
-					<ul class="sectionid">
-						<a href="http://www.spatial.redlands.edu/msgis/program/program-overview.aspx" target="_blank">
-						<li id="heading">
-							University of Redlands
-						</li></a>
-						<li id="description">Master of Science in GIS</li>
-						<li id="year">Program completion:  August 2014</li>
-					</ul>
-					<h4>University of Maryland</h4>
-					<ul class="sectionid">
-						<a href="https://bsos.umd.edu/" target="_blank">
-							<li id="heading">
-								University of Maryland, College Park
-							</li></a>
-						<li id="description">Bachelor of Science in Geography: GIS</li>
-						<li id="year">Degree received:  December 2011</li>
-					</ul>
-					<h4>University of Colorado</h4>
-					<ul class="sectionid">
-							<a href="http://www.ecofs.org">
-								<li id="heading">
-									University of Colorado, Boulder
-								</li></a>
-						<li id="description">Colorado Ecosystems Field Study</li>
-						<li id="year">Summer 2010</li>
-					</ul>
-					<h4>University of Sydney</h4>
-					<ul class="sectionid">
-						<a href="https://sydney.edu.au/">
-							<li id="heading">University of Sydney, Australia
-							</a></li>
-						<li id="description">Study Abroad Program in Urban Planning</li>
-						<li id="year">Spring 2008</li>
-					</ul>
-				</div>
-				<a id="back_up" href="#top">Back to top</a>
-			</div>
+    <nav class="nav nav-style">
+        <div class="container">
+            <div class="nav-left">
+                <a class="nav-item is-tab nav-text" href="about_me.html">
+                      About
+                  </a>
+                <a class="nav-item is-tab nav-text" href="resume.html">
+                      Resume
+                  </a>
+                <a class="nav-item is-tab nav-text" href="contact.html">
+                      Contact
+                  </a>
+            </div>
+            <!-- nav-icons -->
+            <div class="nav-right nav-menu">
+                <a class="nav-item" href="mailto:nico.roldos@me.com">
+                    <span class="icon">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </a>
+                <a class="nav-item" href="https://github.com/nicowave">
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+                <a class="nav-item" href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
+                    <span class="icon">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <br>
 
-			<!--languages-->
-			<div id="wrapper">
-			<div class="languages" id="languages">
-					<h3>Spoken Languages:</h3>
-					<h4>Bilingual: fluent in English and Spanish </h4>
-				</div>
-				<a id="back_up" href="#top">Back to top</a>
-			</div>
+    <!--RESUME-->
+    <!--table of contents-->
+    <div class="box container">
+        <div class="container has-text-centered top">
+            <h1 class="title is 1"><strong>Resume</strong></h1>
+        </div>
+        <br>
+        <div class="hero content">
+            <ul class="menu-list content-list-style">
+                <a href="#education">
+                    <li class="list-style">Education</li>
+                </a>
+                <a href="#languages">
+                    <li class="list-style">Languages</li>
+                </a>
+                <a href="#projects">
+                    <li class="list-style">Projects</li>
+                </a>
+                <a href="#computer_skills">
+                    <li class="list-style">Computer Skills</li>
+                </a>
+                <a href="#work_experience">
+                    <li class="list-style">Work Experience</li>
+                </a>
 
-			<!--computer skills-->
-			<div id="wrapper">
-			<div class="computer_skills" id="computer_skills">
-					<h3>Computer Skills</h3>
-					<h4>COTS</h4>
-					<ul class="sectionid">
-						<li id="description">ArcMap 10 to Pro</li>
-						<li id="description">ArcCatalog</li>
-						<li id="description">ArcFM</li>
-						<li id="description">ArcGIS Online</li>
-						<li id="description">WMIS</li>
-						<li id="description">OpenGeo Suite</li>
-						<li id="description">Adobe Photoshop</li>
-						<li id="description">Adobe Illustrator</li>
-						<li id="description">Flash Builder</li>
-						<li id="description">Git</li>
-						<li id="description">GitHub</li>
-						<li id="description">OSX Command Line</li>
-						<li id="description">AutoCAD</li>
-					</ul>
-					<h4>Programming Languages, Web Markup and Styling</h4>
-					<ul class="sectionid">
-						<li id="description">Objective C</li>
-						<li id="description">C</li>
-						<li id="description">Swift</li>
-						<li id="description">Ruby</li>
-						<li id="description">Ruby On Rails</li>
-						<li id="description">Python</li>
-						<li id="description">JavaScript</li>
-						<li id="description">JSON</li>
-						<li id="description">CSS</li>
-						<li id="description">HTML5</li>
-					</ul>
-					<h4>Platforms, SDK's, API's, frameworks</h4>
-					<ul class="sectionid">
-					 <li id="description">iOS</li>
-						<li id="description">OSX</li>
-						<li id="description">iOS Foundation</li>
-						<li id="description">iOS UIKit</li>
-						<li id="description">iOS MapKit</li>
-						<li id="description">iOS CoreLocation</li>
-						<li id="description">iOS AddressBook</li>
-						<li id="description">Esri Geotriggers iOS SDK</li>
-						<li id="description">Esri ArcGIS Runtime iOS SDK</li>
-						<li id="description">Parse SDK</li>
-					</ul>
-				</div>
-				<a id="back_up" href="#top">Back to top</a>
-			</div>
+                <a href="#volunteer">
+                    <li class="list-style">Volunteer Experience</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <br>
 
-				<!--work_experience-->
-				<div id="wrapper">
-				<div class="work_experience" id="work_experience">
-					<h3>Work Experience:</h3>
-					<h4>Bonterra-PSOMAS</h4>
-					<ul class="sectionid">
-						<li id="heading">GIS Specialist Intern at Department of Environmental Resources</li>
-						<p id="description">Worked alongside GIS department manager Chris Starbird to learn the latest workflows for ArcGIS10.2 and production GIS.
-							Created cartographic, mobile-mapping and graphics products for biologists, environmental scientists, archeologist and clients.
-							Learned how to configure and operate a sub-meter GPS unit for use in the field for data collection.</p>
-						<li id="year">October 2014 to February 2015</li>
-						<a href="https://www.google.com/maps/place/Psomas/@33.6992884,-117.8661346,17z/">
-							<li id="location">
-							 Irvine, California
-							</li></a>
-					</ul>
-					<h4>National Defense University (NDU)</h4>
-					<ul class="sectionid">
-						<li id="heading">Research Intern at Center for Hemispherical Defense Studies (CHDS)</li>
-						<p id="description">Worked alongside professor of National Security Luis Kun (PhD) at CHDS in NDU.
-						Contributed to project titled: “Arsenic contamination in the Water Infrastructure in California from a February 2013 Report”
-						Collected data, created geo-database and developed cartographic graphics using ArcCatalog and ArcMap 10.0 for Texas and California.</p>
-						<li id="heading">Outcome Publication:</li>
-						<p id="description">“The arsenic threat: inter-dependencies of water, agriculture, food supply, public health and energy critical infrastructure”
-						Authors as listed in publication: Luis Kun & B. Linkous & C. Gibson & N. Roldos
-						Journal of Health and Technology, Springer-Verlag Berlin Heidelberg.
-						Published: August 7th 2014</p>
-						<li id="year">June 2013 through August 2013</li>
-						<a href="https://www.google.com/maps/place/Fort+Lesley+J.+McNair,+Washington,+DC+20024/@38.8673152,-77.0176145,17z/">
-						<li id="location">
-							Fort Lesley J. McNair, Washington DC
-						</li></a>
-					</ul>
-					<h4>TRC Solutions:</h4>
-					<ul class="sectionid">
-						<li id="heading">Distribution Systems Analyst</li>
-						<p id="description">Data collection and geo-referencing for Pepco electrical distribution systems in Washington D.C. and Maryland.
-						Input of geo-referenced data in ArcFM Desktop Pepco portal; data collected with ArcFM iPad application.
-						Updated and manipulated overhead circuit designs for PHI (Pepco Holdings Incorporated).
-						Produced cartographic products and cost estimates for PHI SAIFI (System Average Interruption Frequency Index).
-						Collaborated with project managers, electrical field engineers, DC Department of Transportation (DDOT) and PHI.</p>
-						<li id="year">February 2012 to February 2013</li>
-						<a href="https://www.google.com/maps/place/TRC+Companies,+Inc./@38.9042266,-77.26097,14.82z/">
-							<li id="location">
-								Vienna, VA | NYSE: TRR
-							</li></a>
-					</ul>
-				</div>
-				<a id="back_up" href="#top">Back to top</a>
-			</div>
-
-				<!--volunteer_experience-->
-				<div id="wrapper">
-				<div class="volunteer_experiece" id="volunteer_experience">
-				 <h3>Volunteer Experience:</h3>
-					<h4> US DOE Solar Decathlon: University of Maryland Team 2007 and 2011</h4>
-					<ul class="sectionid">
-						<li id="heading">Tour guide and team member: Team L.E.A.F.house (L.E.A.F. Leading Everyone to an Abundant Future)</li>
-						<p id="description">Provided tours of US DOE Solar Decathlon net-zero energy solar powered house which won second place
-							for University of Maryland overall in international competition for 2007.
-						Provided information and marketing materials for L.E.A.F.house scaled apartment and small home design and constuction services.
-						Provided information on house layout, photovoltaic technology, solor hot water tubes, battery power storage,
-						 interior and exterior design and University of Marylands mission for the future of L.E.A.F.house </p>
-					</ul>
-					<ul class="sectionid">
-						<li id="heading">Project Manual Editor, construction vounteer and WaterShed house team member: Team WaterShed</li>
-						<p id="description">Created and edited documentation of grid-tie system for photovoltaic panels
-							(solar panels) for team WaterShed for University of Maryland.
-						Team WaterShed won the overall international, US DOE sponsored,
-							Solar Decathlon competition for 2011 held on Washington D.C. National Mall.
-							Learned Masterformat for professional construction and engineering documents.</p>
-						<p id="description">Shared my own ideas for lighting design with Architects on lighting-team and Engineers on electrical-team.</p>
-						<p id="description">Dug parts of foundatation and volunteered to set up construction site on University of Maryland, College Park campus.
-						Participated in team WaterShed solar house design and construction meetings.
-						 Attended all OSHA safety trainings and cerification (OSHA Occupational Safety and Health Administration)</p>
-						<li id="year">October 2014 to February 2015</li>
-						<a href="https://www.google.com/maps/place/University+of+Maryland/@38.9869183,-76.9447483,17z/" target="_blank">
-						<li id="location">
-							Univeristy of Maryland, College Rark, Maryland
-						</li></a>
-						<a href="https://www.google.com/maps/place/National+Mall/@38.8896198,-77.0251712,17z/">
-								<li id="location">
-									National Mall,  Washington D.C.
-						</li></a>
-					</ul>
-				</div>
-				<a id="back_up" href="#top">Back to top</a>
+    <!--RESUME-->
+    <!--education-->
+    <div class="container has-text-centered" id="education">
+        <h1 class="title is 1">University Education:</h1>
+    </div>
+    <br>
+    <div class="box container education-box">
+        <section class="hero content">
+            <div class="hero-body">
+                <div class="container education">
+                    <a href="http://www.spatial.redlands.edu/msgis/program/program-overview.aspx" target="_blank">
+                        <h3 class="item-title">University of Redlands</h3>
+                    </a>
+                    <ul>
+                        <li class="description">Master of Science in GIS</li>
+                        <li class="year">Program completed August of 2014</li>
+                        <br>
+                        <br>
+                        <li class="list-style"><a id="back_up" href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>
 
-      <div id="wrapper">
-			<footer>
-				<a href="https://twitter.com/geoidlife">
-					<img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-					<a href="https://www.facebook.com/geoidlife">
-					<img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-				<p>&copy; 2017	Nicolas Roldos.</p>
-			</footer>
-		</div>
-	</body>
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <div class="container education">
+                    <a href="https://bsos.umd.edu/" target="_blank">
+                        <h2 class="item-title">University of Maryland, College Park</h2>
+                    </a>
+                    <ul>
+                        <li class="description">Bachelor of Science in Geography: GIS</li>
+                        <li class="year">Degree received December of 2011</li>
+                        <br>
+                        <br>
+                        <li class="list-style"><a id="back_up" href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <div class="container education">
+                    <a href="http://www.colorado.edu">
+                        <h2 class="item-title">Galvanize, Boulder</h2>
+                    </a>
+                    <ul>
+                        <li class="description">Immersive Full Stack Web Development Course</li>
+                        <li class="year">Completed July of 2017</li>
+                        <br>
+                        <br>
+                        <li class="list-style"><a href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <div class="container education">
+                    <a href="http://www.colorado.edu">
+                        <h2 class="item-title">University of Colorado, Boulder</h2>
+                    </a>
+                    <ul>
+                        <li class="description">Colorado Ecosystems Field Study Course</li>
+                        <li class="year">Summer of 2010</li>
+                        <br>
+                        <br>
+                        <li class="list-style"><a href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <div class="container education">
+                    <a href="https://sydney.edu.au/">
+                        <h2 class="item-title">University of Sydney, Australia</h2>
+                    </a>
+                    <ul>
+                        <li class="description">Study Abroad Program in Urban Planning</li>
+                        <li class="year">Spring 2008</li>
+                        <br>
+                        <br>
+                        <li class="list-style"><a id="back_up" href="#top">Back to top</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+
+
+    <!--languages-->
+    <div class="container has-text-centered top" id="languages">
+        <h2 class="title is 1">Spoken Languages:</h2>
+    </div>
+    <br>
+    <br>
+    <div class="box container languages">
+        <li class="list-style languages-text">Bilingual: fluent in English and Spanish </li>
+        <br>
+        <br>
+        <li class="list-style"><a class="back-up" href="#top">Back to top</a></li>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <div class="container has-text-centered top" id="projects">
+        <h2 class="title is 1">Projects</h2>
+    </div>
+    <br>
+    <br>
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+            <h2 class="title is 2">ClimaPARK</h2>
+
+            <br>
+            <li class="list-style">
+            <a href="http://climapark.surge.sh">http://climapark.surge.sh</a>
+            </li>
+            <br>
+            <br>
+            <p>ClimaPARK provides a weather-friendly parking search engine and reservation utility to users. Parking search criteria includes user’s destination, desired date and time of parking, duration of parking and current weather at destination. Project utilizes a user’s location, geographic parking data and current climate data.</p>
+
+          </div>
+        </section>
+    </div>
+
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+            <h2 class="title is 2">Classifieds</h2>
+            <br>
+            <li class="list-style">
+              <a href="https://galvanize-classified-nico.herokuapp.com/">Classifieds HerokuApp</a>
+            </li>
+            <br>
+            <br>
+            <p>Web application built with Angular 1.6 framework with full CRUD functionality (Create, Read, Update, Destroy). Website built along with a server side, built with Node, Express, PostgreSQL and RESTful design. For this app, the resources are classified ads consisting of text and photos that can be edited, removed or recreated dynamically. A minimalistic styling approach was used to make classifieds content stand out as it was modified or when new content was posted.</p>
+          </div>
+      </section>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <!--computer skills-->
+    <div class="container has-text-centered" id="computer_skills">
+        <h1 class="title is 1">Computer Skills</h1>
+    </div>
+    <br>
+    <br>
+    <div class="box container">
+        <h4><strong>COTS</strong></h4>
+        <br>
+        <ul>
+            <li class="description">ArcMap 10 to Pro</li>
+            <li class="description">ArcCatalog</li>
+            <li class="description">ArcFM</li>
+            <li class="description">ArcGIS Online</li>
+            <li class="description">WMIS</li>
+            <li class="description">Adobe Photoshop</li>
+            <li class="description">Adobe Illustrator</li>
+            <li class="description">Git</li>
+            <li class="description">GitHub</li>
+            <li class="description">OSX Command Line</li>
+            <li class="description">AutoCAD</li>
+        </ul>
+        <br>
+        <h4><strong>Programming Languages, Web Markup and Styling</strong></h4>
+        <br>
+        <ul>
+            <li class="description">Objective C</li>
+            <li class="description">C</li>
+            <li class="description">Swift</li>
+            <li class="description">Ruby</li>
+            <li class="description">Ruby On Rails</li>
+            <li class="description">JavaScript</li>
+            <li class="description">JSON</li>
+            <li class="description">CSS</li>
+            <li class="description">HTML5</li>
+        </ul>
+        <br>
+        <h4><strong>Platforms, SDK's, API's, frameworks</strong></h4>
+        <br>
+        <ul class="sectionid">
+            <li id="description">iOS</li>
+            <li id="description">OSX</li>
+            <li id="description">iOS Foundation</li>
+            <li id="description">iOS UIKit</li>
+            <li id="description">iOS MapKit</li>
+            <li id="description">iOS CoreLocation</li>
+            <li id="description">iOS AddressBook</li>
+            <li id="description">Esri Geotriggers iOS SDK</li>
+            <li id="description">Esri ArcGIS Runtime iOS SDK</li>
+            <li id="description">Facebook Javascript API</li>
+            <li id="description">DarkSky Weather API</li>
+        </ul>
+        <br>
+        <br>
+        <li class="list-style">
+            <a class="back-up" href="#top">Back to top</a>
+        </li>
+      </div>
+    </div>
+    <br>
+    <br>
+
+
+
+    <!--work_experience-->
+    <div class="container has-text-centered" id="work_experience">
+        <h1 class="title is 1">Work Experience:</h1>
+    </div>
+    <br>
+    <br>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <h2 class="title is 2">Bonterra-PSOMAS</h2>
+                <br>
+                  <ul class="sectionclass">
+                    <li class="heading">
+                        GIS Specialist Intern at Department of Environmental Resources
+                    </li>
+                    <br>
+                    <p class="description">Worked alongside GIS department manager Chris Starbird to learn the latest workflows for ArcGIS10.2 and production GIS. Created cartographic, mobile-mapping and graphics products for biologists, environmental scientists, archeologist
+                        and clients. Learned how to configure and operate a sub-meter GPS unit for use in the field for data collection.</p>
+                    <br>
+                    <li class="year">October 2014 to February 2015</li>
+                    <br>
+                    <a href="https://www.google.com/maps/place/Psomas/@33.6992884,-117.8661346,17z/">
+                        <li class="list-style location">
+                            Irvine, California
+                        </li>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="back-up" href="#top">
+                        <li class="list-style">Back to top</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <h2>National Defense University (NDU)</h2>
+                <br>
+                <ul class="sectionclass">
+                    <li class="heading">Research Intern at Center for Hemispherical Defense Studies (CHDS)</li>
+                    <br>
+                    <p class="description">Worked alongside professor of National Security Luis Kun (PhD) at CHDS in NDU. Contributed to project titled: “Arsenic contamination in the Water Infrastructure in California from a February 2013 Report” Collected data, created
+                        geo-database and developed cartographic graphics using ArcCatalog and ArcMap 10.0 for Texas and California.</p>
+                    <br>
+                    <li class="heading">Outcome Publication:</li>
+                    <br>
+                    <p class="description">“The arsenic threat: inter-dependencies of water, agriculture, food supply, public health and energy critical infrastructure” Authors as listed in publication: Luis Kun & B. Linkous & C. Gibson & N. Roldos Journal of Health and Technology,
+                        Springer-Verlag Berlin Heclasselberg. Published: August 7th 2014</p>
+                    <br>
+                    <li class="year list-style">June 2013 through August 2013</li>
+                    <br>
+                    <a href="https://www.google.com/maps/place/Fort+Lesley+J.+McNair,+Washington,+DC+20024/@38.8673152,-77.0176145,17z/">
+                        <li class="location list-style">
+                            Fort Lesley J. McNair, Washington DC
+                        </li>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="back-up" href="#top">
+                        <li class="list-style">Back to top</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <h2>TRC Solutions:</h2>
+                <br>
+                <ul class="sectionclass">
+                    <li class="heading">Distribution Systems Analyst</li>
+                    <br>
+                    <p class="description">Data collection and geo-referencing for Pepco electrical distribution systems in Washington D.C. and Maryland. Input of geo-referenced data in ArcFM Desktop Pepco portal; data collected with ArcFM iPad application. Updated and manipulated
+                        overhead circuit designs for PHI (Pepco Holdings Incorporated). Produced cartographic products and cost estimates for PHI SAIFI (System Average Interruption Frequency Index). Collaborated with project managers, electrical field
+                        engineers, DC Department of Transportation (DDOT) and PHI.</p>
+                    <br>
+                    <li class="year list-style">February 2012 to February 2013</li>
+                    <br>
+                    <a href="https://www.google.com/maps/place/TRC+Companies,+Inc./@38.9042266,-77.26097,14.82z/">
+                        <li class="location list-style">Vienna, VA | NYSE: TRR</li>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="back-up" href="#top">
+                        <li class="list-style">Back to top</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+    <!--volunteer_experience-->
+    <div class="container has-text-centered" id="volunteer">
+      <h1 class="title is 1">Volunteer Experience:</h1>
+    </div>
+    <br>
+    <br>
+    <div class="box container">
+        <section class="hero content">
+            <div class="hero-body">
+                <h2 class="title is 1"> US DOE Solar Decathlon: University of Maryland Team 2007 and 2011</h2>
+                <br>
+                <ul>
+                    <li class="heading list-style">Tour guide and team member: Team L.E.A.F.house (L.E.A.F. Leading Everyone to an Abundant Future)</li>
+                    <br>
+                    <p class="description">Provided tours of US DOE Solar Decathlon net-zero energy solar powered house which won second place for University of Maryland overall in international competition for 2007. Provided information and marketing materials for L.E.A.F.house
+                        scaled apartment and small home design and constuction services. Provided information on house layout, photovoltaic technology, solor hot water tubes, battery power storage, interior and exterior design and University of Marylands
+                        mission for the future of L.E.A.F.house </p>
+                </ul>
+                <br>
+                <ul>
+                    <li class="heading">Project Manual Editor, construction vounteer and WaterShed house team member: Team WaterShed</li>
+                    <br>
+                    <p class="description">Created and edited documentation of grid-tie system for photovoltaic panels (solar panels) for team WaterShed for University of Maryland. Team WaterShed won the overall international, US DOE sponsored, Solar Decathlon competition for
+                        2011 held on Washington D.C. National Mall. Learned Masterformat for professional construction and engineering documents.</p>
+                    <p class="description">Shared my own ideas for lighting design with Architects on lighting-team and Engineers on electrical-team.</p>
+                    <p class="description">Dug parts of foundatation and volunteered to set up construction site on University of Maryland, College Park campus. Participated in team WaterShed solar house design and construction meetings. Attended all OSHA safety trainings and
+                        cerification (OSHA Occupational Safety and Health Administration)</p>
+                    <br>
+                    <li class="year">October 2014 to February 2015</li>
+                    <br>
+                    <a href="https://www.google.com/maps/place/University+of+Maryland/@38.9869183,-76.9447483,17z/" target="_blank">
+                        <li class="location list-style">
+                            Univeristy of Maryland, College Rark, Maryland
+                        </li>
+                    </a>
+                    <br>
+                    <a href="https://www.google.com/maps/place/National+Mall/@38.8896198,-77.0251712,17z/">
+                        <li class="location list-style">
+                            National Mall, Washington D.C.
+                        </li>
+                    </a>
+                    <br>
+                    <br>
+                    <a class="back-up" href="#top">
+                        <li class="list-style">Back to top</li>
+                    </a>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <a class="icon" href="https://www.facebook.com/nico.roldos">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="icon" href="https://twitter.com/geoidlife">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a class="icon" href="mailto:nico.roldos@me.com">
+                <span class="icon">
+                <i class="fa fa-envelope"></i>
+              </span>
+            </a>
+        </div>
+        <div class="content has-text-centered">
+            <p>
+                <strong>
+                &copy; 2017 Nicolas Roldos
+              </strong>
+            </p>
+
+        </div>
+    </footer>
+
+</body>
+
 </html>

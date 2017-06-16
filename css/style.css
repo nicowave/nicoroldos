@@ -1,0 +1,69 @@
+
+header {
+  top: fixed;
+}
+
+.map {
+  width: auto;
+  height: 300px;
+}
+
+.name-space {
+  padding-left: 24px;
+  margin: 8px;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-size: 4.0rem;
+  color: white;
+  height: 32px;
+}
+
+.nav-style {
+  background-color: #dee4ed;
+}
+
+.nav-text {
+  font-size: 1.2rem;
+}
+
+
+.me-image {
+  border-radius: 50%;
+
+}
+
+.code-image {
+  border-radius: 50%;
+}
+
+
+.image-display {
+  display: inline-block;
+}
+
+
+/* resume-element styles */
+.list-style {
+  list-style: none;
+}
+
+.languages {
+  background-color: #FF3860;
+}
+
+.languages-text {
+  font-size: 2.0rem;
+  color: white;
+}
+
+.description {
+  list-style: none;
+}
+
+.year {
+  list-style: none;
+}
+
+
+.item-title {
+  color: #00D1B2;
+}

@@ -2,93 +2,123 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<meta charset="utf-8">
-			<title>Nicolas Roldos</title>
-			<link rel="stylesheet" href="css/normalize.css">
-			<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic' rel='stylesheet' type='text/css'>
-			<link rel="stylesheet" href="css/main.css">
-			<link rel="stylesheet" href="css/responsive.css">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+  		<title>Nicolas Roldos</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+      <link href="https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css" rel="stylesheet"/>
+      <link rel="stylesheet" href="/css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		</head>
 
     <body>
-      <header>
-        <a href="index.html" id="logo">
-          <h1>Nicolas Roldos</h1></a>
+      <section class="hero is-small is-primary is-bold">
+        <div class="hero-body">
+          <div class="container">
+            <header>
+            <a href="index.html">
+              <h1 class="name-space title">Nicolas Roldos</h1>
+            </a>
+            </header>
+          </div>
+        </div>
+      </section>
+      <nav class="nav nav-style">
+        <div class="container">
+        <div class="nav-left">
+            <a class="nav-item is-tab nav-text" href="about_me.html">
+                About
+            </a>
+            <a class="nav-item is-tab nav-text" href="resume.html">
+                Resume
+            </a>
+            <a class="nav-item is-tab nav-text" href="contact.html">
+                Contact
+            </a>
+        </div>
 
-					<nav class="navigation">
-						<tr>
-							<a href="about_me.html">
-								<td>
-									About
-								</td></a>
-							<a href="resume.html">
-								<td>
-									Resume
-							</a></td>
-							<a href="contact.html">
-								<td>
-									Contact
-							</td></a>
-						</tr>
-					</nav>
-      </header>
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="mailto:nico.roldos@me.com">
+              <span class="icon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </span>
+            </a>
+            <a class="nav-item" href="https://github.com/nicowave">
+              <span class="icon">
+                <i class="fa fa-github"></i>
+              </span>
+            </a>
+            <a class="nav-item" href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
+              <span class="icon">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span>
+            </a>
 
-      <div id="wrapper">
-  			<div id="social">
-  				<table style="width: 100%">
-  					<tr id="contact">
-  					    <td>
-  							<a href="mailto:nico.roldos@me.com">
-  							<img src="img/email_black_circle.png" width="40" height="40"></a>
-  						</td>
-  					    <td>
-  							<a href="tel:240-338-4335">
-  							<img src="img/phone_circle_black.png" width="40" height="40"></a>
-  						</td>
-  						<td>
-  							<a href="https://github.com/nicowave">
-  							<img src="img/github_black_circle.png" width="40" height="40"></a>
-  						</td>
-  						<td>
-  							<a href="http://geoidlife.com">
-  							<img src="img/website_black.png" width="40" height="40"></a>
-  						</td>
-  						<td>
-  							<a href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
-  							<img src="img/linkedin_black_circle.png" width="40" height="40"></a>
-  						</td>
-  					</tr>
-  				</table>
-  			</div>
-    </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
 
 
-      <div id="wrapper">
-      <section class="about">
-				<h3>ABOUT</h3>
-	        <img src="img/nico/nico_scruff.png" width="300" height="300" class="center">
 
-					<p>My full name is Nicolas Jorge Roldos... if you are wondering what heritage my last name belongs to the answer is Spain.
-						My parents are both from Uruguay a small country in South America.</p>
-					<a href="https://www.google.com/maps/place/Uruguay/@-31.2794223,-61.5050703,6z" target="_blank">
-						Uruguay on Google Maps</a>
-					<p>I am bilingual and enjoy visiting Punta Del Este, a beach town where my cousins and other relatives often vacation in the summer months.
+    <section class="hero-content">
+      <div class="hero-body">
+        <div class="container">
+				<h1 class="title is 1">About me</h1>
+
+					<p>I have always been interested in innovation, technology and world travel. From a young age I traveled to many countries and throughout my life I have developed interests in geography, architecture, urban planning and innovation in transposrtation and communication. I ultimately arrived at a crossroads of this wide array of interests in my discovery of Geographic Information Systems and its application to web and mobile technologies.
+            <br>
+            <br>
+            If you are wondering what heritage my last name belongs to the answer is Spain.
+						My parents are both from Montevideo, Uruguay the capitol city of a small country in South America.</p>
+            <br>
+            <br>
+					<div id="mapU" class="map"></div>
+            <br>
+            <br>
+            <h2 class="title is 2">Family</h2>
+					<p>My extended family for the most part lives in Uruguay. I like to visit my family in Punta Del Este where my parents have a vaction home where realtives can stay and gather during the holidays where we all catch up on how our year(s) has (have) been.
 						Since Uruguay is in the Southern Hemisphere would you venture to guess when summer begins and ends there?</p>
-					<a href="https://www.google.com/maps/place/Punta+del+Este,+Maldonado+Department,+Uruguay/@-34.9425087,-55.052036,11z/" target="_blank">
-						Punta Del Este, Uruguay on Google Maps</a>
-      	</section>
-			</div>
+            <br>
+            <br>
+            <label for="map"><strong>Close-up of Punta Del Este, Uruguay</strong></label>
+            <br>
+            <br>
+            
+            <div id='map' style="width: auto; height: 300px;"></div>
+
+        	</div>
+  			</div>
+    </section>
+
+      <footer class="footer">
+         <div class="content has-text-centered">
+          <a class="icon" href="https://www.facebook.com/nico.roldos">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="icon" href="https://twitter.com/geoidlife">
+                <i class="fa fa-twitter"></i>
+          </a>
+          <a class="icon" href="mailto:nico.roldos@me.com">
+            <span class="icon">
+              <i class="fa fa-envelope"></i>
+            </span>
+          </a>
+        </div>
+         <div class="content has-text-centered">
+            <p>
+            <strong>
+              &copy; 2017 Nicolas Roldos
+            </strong>
+          </p>
+
+          </div>
+      </footer>
 
 
-    <div id="wrapper">
-		<footer>
-			<a href="https://twitter.com/geoidlife">
-				<img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-				<a href="https://www.facebook.com/geoidlife">
-				<img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-			<p>&copy; 2017	Nicolas Roldos.</p>
-		</footer>
-		</div>
+      <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+      <script src="/js/map.js" charset="utf-8"></script>
 	</body>
 </html>
