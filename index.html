@@ -8,26 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <section class="hero is-medium is-primary is-bold">
-    <div class="hero-body">
-      <div class="container">
-        <header>
-        <a href="index.html">
-          <h1 class="name-space title">Nicolas Roldos</h1>
-        </a>
-      </header>
-      </div>
-    </div>
-  </section>
+    <section class="hero is-small banner">
+        <div class="hero-body">
+            <div class="container">
+                <header>
+                    <a href="index.html">
+                        <h1 class="name-space title">Nicolas Roldos</h1>
+                    </a>
+                    <br>
+                    <a href="index.html">
+                        <h2 class="subtitle sub-space">geo, web and mobile app developer</h2>
+                    </a>
+                </header>
+            </div>
+        </div>
+    </section>
 
     <nav class="nav nav-style">
         <div class="container">
             <div class="nav-left">
+                <a class="nav-item is-tab nav-text is-active" href="index.html">
+              Home
+            </a>
                 <a class="nav-item is-tab nav-text" href="about_me.html">
                     About
                 </a>
@@ -75,27 +83,52 @@
         <div class="container">
             <h1 class="title"><strong>Hello,</strong> my name is Nicolas Roldos</h1>
             <br>
-              <h2 class="subtitle">
-                I am an full-stack web developer with a strong background in Geographic Information Systems (GIS) and experience in iOS location-based application development.
+            <h2 class="subtitle is-4 introduction">
+                I am a <strong>full-stack</strong> web developer with a strong background in Geographic Information Systems (GIS) and experience in iOS location-based application development.
               </h2>
             <br>
-            <article>
-                <strong>I am currently looking for web development work in <a href="https://www.google.com/maps/place/Los+Angeles,+CA/@33.5865505,-118.4227495,9z">Southern California.</a></strong> I like to work on small and medium size teams. I am looking for opportunities that require use of a creativity, teamwork and offer a healthy growth attitude.
-            </article>
             <br>
-            <ul class="menu-list">
-                <li><a href="about_me.html" alt="about">
-                   Short Bio
-                 </a></li>
-                <li><a href="resume.html" alt="resume">
-                   Resume
-                 </a></li>
-                <li><a href="contact.html" alt="contact">
-                 Contact Information
-               </a></li>
-            </ul>
+            <div class="box container">
+            <div class="container is-fluid is-centered">
+              <br>
+                <article>
+                    <strong>I am currently looking for web development work in the United States.</strong> While I am currently wrapping up a course in Immersive Full Stack Web Development in Boulder, Colorado and plan to move back to Southern California, I am open to the possibility of relocation. </article>
+                <br>
+                <br>
+                <div id='mapCa' class="map larger-map"></div>
+                <br>
+                <br>
+                <article class="article"><strong>I am looking for opportunities that involve creativity, teamwork and offer a healthy professional environment with room to grow.</strong> Projects involving geographic or location-based data interest me. I value working in an environment where I can apply my current skills and interests while developing new skills and expanding my knowledge base.
+                </article>
+                <br>
+            </div>
           </div>
-      </section>
+
+            <br>
+            <br>
+            <h2 class="title is-4 organization">I have organized pertinent information on myself as a professional and as an individual in the following categories:</h2>
+            <br>
+            <div class="container is-fluid">
+                <ul class="menu-list">
+                    <li class="list-style">
+                        <a href="about_me.html" alt="about">
+                       About
+                      </a>
+                    </li>
+                    <li class="list-style">
+                        <a href="resume.html" alt="resume">
+                     Resume
+                       </a>
+                    </li>
+                    <li class="list-style">
+                        <a href="contact.html" alt="contact">
+                 Contact Information
+                     </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -122,6 +155,9 @@
             </p>
         </div>
     </footer>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <script src="/js/mapTwo.js" charset="utf-8"></script>
+
 </body>
 
 </html>

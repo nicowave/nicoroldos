@@ -3,7 +3,7 @@
 
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoibmljb3dhdmVtb3VudGFpbiIsImEiOiJUNU4weWUwIn0.hCfIMb-MMJqmDjhoMKEpug'
-
+//  map of Punta Del Este
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
@@ -11,9 +11,7 @@ var map = new mapboxgl.Map({
     zoom: 11
 });
 
-
 map.on('load', function() {
-
     map.addLayer({
         "id": "points",
         "type": "symbol",
@@ -32,7 +30,7 @@ map.on('load', function() {
                         "icon": "harbor"
                     }
                 }]
-            } 
+            }
         },
         "layout": {
             "icon-image": "{icon}-15",
@@ -43,19 +41,15 @@ map.on('load', function() {
         }
     });
 });
-
+// map of Uruguay
  var mapU = new mapboxgl.Map({
-
     container: 'mapU',
     style: 'mapbox://styles/mapbox/streets-v9',
     center: [-56.227, -34.820],
     zoom: 7
 });
 
-
-
 mapU.on('load', function() {
-
     mapU.addLayer({
         "id": "points",
         "type": "symbol",

@@ -1,124 +1,149 @@
 <!--about_me.html-->
 <!DOCTYPE html>
-	<html>
-		<head>
-      <meta charset="utf-8">
-  		<title>Nicolas Roldos</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
-      <link href="https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css" rel="stylesheet"/>
-      <link rel="stylesheet" href="/css/style.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		</head>
+<html>
 
-    <body>
-      <section class="hero is-small is-primary is-bold">
+<head>
+    <meta charset="utf-8">
+    <title>Nicolas Roldos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Ubuntu" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section class="hero is-small banner">
         <div class="hero-body">
-          <div class="container">
-            <header>
-            <a href="index.html">
-              <h1 class="name-space title">Nicolas Roldos</h1>
-            </a>
-            </header>
-          </div>
+            <div class="container">
+                <header>
+                    <a href="index.html">
+                        <h1 class="name-space title">Nicolas Roldos</h1>
+                    </a>
+                    <br>
+                    <a href="index.html">
+                        <h2 class="subtitle sub-space">geo, web and mobile app developer</h2>
+                    </a>
+                </header>
+            </div>
         </div>
-      </section>
-      <nav class="nav nav-style">
+    </section>
+    <nav class="nav nav-style">
         <div class="container">
-        <div class="nav-left">
-            <a class="nav-item is-tab nav-text" href="about_me.html">
+            <div class="nav-left">
+              <a class="nav-item is-tab nav-text" href="index.html">
+              Home
+            </a>
+                <a class="nav-item is-tab nav-text" href="about_me.html">
                 About
             </a>
-            <a class="nav-item is-tab nav-text" href="resume.html">
+                <a class="nav-item is-tab nav-text" href="resume.html">
                 Resume
             </a>
-            <a class="nav-item is-tab nav-text" href="contact.html">
+                <a class="nav-item is-tab nav-text" href="contact.html">
                 Contact
             </a>
-        </div>
+            </div>
 
-        <div class="nav-right nav-menu">
-            <a class="nav-item" href="mailto:nico.roldos@me.com">
-              <span class="icon">
+            <div class="nav-right nav-menu">
+                <a class="nav-item" href="mailto:nico.roldos@me.com">
+                    <span class="icon">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
               </span>
-            </a>
-            <a class="nav-item" href="https://github.com/nicowave">
-              <span class="icon">
+                </a>
+                <a class="nav-item" href="https://github.com/nicowave">
+                    <span class="icon">
                 <i class="fa fa-github"></i>
               </span>
-            </a>
-            <a class="nav-item" href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
-              <span class="icon">
+                </a>
+                <a class="nav-item" href="https://www.linkedin.com/in/nicolas-roldos-4079693a/">
+                    <span class="icon">
                 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               </span>
-            </a>
+                </a>
 
-          </div>
+            </div>
         </div>
-      </nav>
-      <br>
-      <br>
+    </nav>
+    <br>
+    <br>
 
 
 
-    <section class="hero-content">
-      <div class="hero-body">
-        <div class="container">
-				<h1 class="title is 1">About me</h1>
+    <section class="hero-content top">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is 1">About me</h1>
+                <article class="article">
+                    <p>While I was born in the United States and am a US citizen, I love to travel. Over the years I have pursued a plethora of interests while traveling.</p>
+                    <br>
+                    <br>
+                    <p>I have always been interested in innovation, technology. From a young age I traveled to many countries in Europe, South America and spent an undergraduate semester abroad in Australia.  I have explored parts of Southeast Asia and Northeast Asia (primarily Japan) in addition to Central America. Throughout my life, and my travels, I have developed interests in geography, architecture, urban planning and innovation in transportation and communication.</p>
+                    <br>
+                    <br>
+                    <p> I ultimately arrived at a crossroads of this wide array of interests in my discovery of <a href="https://www.nationalgeographic.org/encyclopedia/geographic-information-system-gis/">Geographic Information Systems</a> and its applications to web and mobile technologies. Since I love geography and the web I decided to include some maps on this site of places I have been to and are meaningful to me. If you want to read more about my travels I have a blog on travel and geography at <a href="http://geoidlife.com">geoidlife.com.</a></p>
+                </article>
+                <br>
+                <br>
+                <div class="box container">
+                <label for="map"><strong>City of Montevideo, Uruguay</strong></label>
+                <br>
+                <br>
+                <p class="organization">One of my favotrite places to travel is Uruguay. My parents are both from Montevideo, Uruguay and many of my relatives still live there.</p>
+                <br>
+                <br>
+                <div id='mapU' class="map"></div>
+                <br>
+                <br>
+                <label for="map"><strong>Close-up map of Punta Del Este, Uruguay</strong></label>
+                <br>
+                <br>
+                <p class="organization">Within Uruguay one of my favorite spots I have checked out is Punta Del Este, a unique peninsula that juts out into the Atlantic Ocean just a few hours northeast of Montevideo by car.</p>
+                <br>
+                <br>
 
-					<p>I have always been interested in innovation, technology and world travel. From a young age I traveled to many countries and throughout my life I have developed interests in geography, architecture, urban planning and innovation in transportation and communication. I ultimately arrived at a crossroads of this wide array of interests in my discovery of Geographic Information Systems and its application to web and mobile technologies.
-            <br>
-            <br>
-            If you are wondering what heritage my last name belongs to the answer is Spain.
-						My parents are both from Montevideo, Uruguay the capitol city of a small country in South America.</p>
-            <br>
-            <br>
-					<div id="mapU" class="map"></div>
-            <br>
-            <br>
-            <h2 class="title is 2">Family</h2>
-					<p>My extended family for the most part lives in Uruguay. I like to visit my family in Punta Del Este where my parents have a vaction home where realtives can stay and gather during the holidays where we all catch up on how our year(s) has (have) been.
-						Since Uruguay is in the Southern Hemisphere would you venture to guess when summer begins and ends there?</p>
-            <br>
-            <br>
-            <label for="map"><strong>Close-up of Punta Del Este, Uruguay</strong></label>
-            <br>
-            <br>
 
-            <div id='map' style="width: auto; height: 300px;"></div>
+                <div id='map' class="map"></div>
+                  <br>
+                  <br>
+                  <ul>
+                  <li class="list-style"><a id="back_up" href="#top">Back to top</a></li>
+                  </ul>
+            </div>
+        </div>
 
-        	</div>
-  			</div>
+
+        </div>
     </section>
 
-      <footer class="footer">
-         <div class="content has-text-centered">
-          <a class="icon" href="https://www.facebook.com/nico.roldos">
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a class="icon" href="https://twitter.com/geoidlife">
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <a class="icon" href="https://www.facebook.com/nico.roldos">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a class="icon" href="https://twitter.com/geoidlife">
                 <i class="fa fa-twitter"></i>
-          </a>
-          <a class="icon" href="mailto:nico.roldos@me.com">
-            <span class="icon">
+            </a>
+            <a class="icon" href="mailto:nico.roldos@me.com">
+                <span class="icon">
               <i class="fa fa-envelope"></i>
             </span>
-          </a>
+            </a>
         </div>
-         <div class="content has-text-centered">
+        <div class="content has-text-centered">
             <p>
-            <strong>
+                <strong>
               &copy; 2017 Nicolas Roldos
             </strong>
-          </p>
+            </p>
 
-          </div>
-      </footer>
+        </div>
+    </footer>
 
 
-      <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
-      <script src="/js/map.js" charset="utf-8"></script>
-	</body>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <script src="/js/map.js" charset="utf-8"></script>
+</body>
+
 </html>

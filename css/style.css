@@ -1,13 +1,22 @@
 
-header {
+/*header {
   top: fixed;
+}*/
+
+.banner {
+  background-color: black;
 }
+
 
 .map {
   width: auto;
   height: 300px;
 }
 
+.larger-map {
+  width: auto;
+  height: 400px;
+}
 .name-space {
   padding-left: 24px;
   margin: 8px;
@@ -16,6 +25,13 @@ header {
   color: white;
   height: 32px;
 }
+
+.sub-space {
+  padding-left: 24px;
+  margin: 8px;
+  color: white;
+}
+
 
 .nav-style {
   background-color: #dee4ed;
@@ -41,6 +57,15 @@ header {
 }
 
 
+.introduction {
+  padding: 5px 20px 5px 20px;
+  background-color: #ECECEC;
+}
+
+.organization {
+  padding: 5px 20px 5px 20px;
+  background-color: #ECECEC;
+}
 /* resume-element styles */
 .list-style {
   list-style: none;
