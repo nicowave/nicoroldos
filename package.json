@@ -1,0 +1,26 @@
+{
+  "name": "dependencies",
+  "version": "1.0.0",
+  "description": "website for portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicowave/nicoroldos.git"
+  },
+  "keywords": [
+    "nico",
+    "me"
+  ],
+  "author": "nicolas roldos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicowave/nicoroldos/issues"
+  },
+  "homepage": "https://github.com/nicowave/nicoroldos#readme",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}

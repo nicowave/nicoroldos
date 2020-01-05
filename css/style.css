@@ -7,17 +7,14 @@
   background-color: black;
 }
 
-
 .map {
   width: auto;
   height: 300px;
 }
-
 .larger-map {
   width: auto;
   height: 400px;
 }
-
 .name-space {
   padding-left: 24px;
   margin: 8px;
@@ -37,21 +34,18 @@
 .nav-style {
   background-color: #dee4ed;
 }
-
 .nav-text {
   font-size: 1.2rem;
 }
 
 
-.me-image {
-  border-radius: 50%;
-
+.me-img {
+  max-width: 150px;
+ 
 }
-
-.code-image {
-  border-radius: 50%;
+.code-img {
+  max-width: 150px;
 }
-
 
 .image-display {
   display: inline-block;
